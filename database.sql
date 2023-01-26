@@ -14,3 +14,9 @@ INSERT INTO users (username, email, user_password) VALUES (
     'adam@mail.com',
     'adam123'
 );
+
+INSERT INTO users (username, email, user_password) VALUES (
+    'Adam',
+    'adam@mail.com',
+    'adam123'
+);

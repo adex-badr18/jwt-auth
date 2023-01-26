@@ -5,6 +5,7 @@ import express, { json } from 'express';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import usersRouter from './routes/user-routes.js';
+import authRouter from './routes/auth-routes.js';
 
 dotenv.config();
 
@@ -21,6 +22,7 @@ app.use(cookieParser());
 
 app.use('/', express.static(join(__dirname, 'public'))); // static file config
 app.use('/api/users', usersRouter);
+app.use('/api/auth', authRouter);
 
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}`)
