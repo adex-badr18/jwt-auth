@@ -18,4 +18,7 @@ Content-Type: application/json
 
 ###
 GET http://localhost:5000/api/users
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6IkZyZWQiLCJlbWFpbCI6ImZyZWRAZ21haWwuY29tIiwiaWF0IjoxNjc0NzIwNjEzLCJleHAiOjE2NzQ3MjA3OTN9.KV55cw1tIv2y7LHJf6S3VOL3KPFyH-pLfgf4DVmWkHc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6IkZyZWQiLCJlbWFpbCI6ImZyZWRAZ21haWwuY29tIiwiaWF0IjoxNjc0NzIyMjc2LCJleHAiOjE2NzQ3MjIzMTZ9.YyvLAy_YZvbMKPelc7U7qASuwxbIA8AIShubdTIyZ0g
+
+###
+GET http://localhost:5000/api/auth/refresh_token
